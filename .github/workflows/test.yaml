@@ -3,7 +3,7 @@ name: 'hi.'
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/10, * * * *'
+    - cron: '*/5, * * * *'
 
 jobs:
   build:
@@ -16,4 +16,4 @@ jobs:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         title: this is a release
-        tag: MyTag
+        tag: tttaaaagggggggg
